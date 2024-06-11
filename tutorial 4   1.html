@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Hotel Reservation</h2>
+
+<form method=post action="">
+  <fieldset style="background-color: lightgreen;">
+    <legend>Persoal Details</legend>
+    <div>
+       <label for="fname">First name:</label>
+       <input type="text" id="fname" name="fname" value=""><br><br>
+       <label for="lname">Last name:</label>
+       <input type="text" id="lname" name="lname" value=""><br><br>
+       <label for="email">Email:</label>
+       <input type="text" id="email" name="email" value=""><br><br>
+       <label for="password">Password:</label>
+       <input type="password" id="password" name="password" value=""><br><br>
+    </div>
+  </fieldset>
+  <fieldset style="background-color: lightpink;" >
+    <legend> Booking Details</legend>
+    <div>
+        
+        <label for="Checkin day">CheckIn day</label>
+        <input type="date" id="checkin day" name="checkin day" value=""><br><br>
+        <label for="number of days">Number Of Days</label>
+        <input type="number" id="days" name="number of days" value=""><br><br>
+        <input type="radio" id="single room" name="room" value="Single Room">
+        <label for="single room">single room</label><br><br>
+        <input type="radio" id="double room" name="room" value="Double Room">
+        <label for="double room">Double Room</label><br><br>
+        <input type="radio" id="king room" room value="King Room">
+        <label for="king room">King Room</label><br><br>
+        <label for="Breakfast">Breakfast</label>
+        <select name="Breakfast" id="Breakfast">
+            <option value="include">Include</option>
+            <option value="include">Exclude</option>
+            </select>
+            <br><br>
+        <label for="Special Rquirment">Special Requirment:</label>
+        <textarea placeholder=""></textarea> 
+        
+      </div>   
+  </fieldset>
+
+     
+
+
+  <input type="submit" value="send"  style="background-color: lightblue;">
+  <input type="reset" value="cancel" style="background-color: lightblue;" >
+</form> 
+
+
+
+</body>
+</html>
+
